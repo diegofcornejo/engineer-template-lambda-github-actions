@@ -1,0 +1,33 @@
+{
+  "name": "engineer-template-lambda-github-actions",
+  "version": "1.0.0",
+  "description": "Engineer Lambda CI/CD with github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "invoke": "aws lambda invoke --function-name {{FunctionName}} --payload fileb://./events/example.json response.json",
+    "invoke:local": "sam local invoke -e ./events/example.json LambdaGithubActions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegofcornejo/engineer-template-lambda-github-actions.git"
+  },
+  "keywords": [
+    "satelite",
+    "engineer",
+    "lowcode",
+    "lambda",
+    "ci",
+    "git",
+    "github",
+    "actions",
+    "workflow",
+    "serverless"
+  ],
+  "author": "Diego Cornejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegofcornejo/engineer-template-lambda-github-actions/issues"
+  },
+  "homepage": "https://github.com/diegofcornejo/engineer-template-lambda-github-actions#readme"
+}

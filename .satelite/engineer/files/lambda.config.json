@@ -1,0 +1,9 @@
+{
+    "FunctionName": "{{FunctionName}}",
+    "Description": "{{Description}}",
+    "Role":"{{Role}}",
+    "Handler":"{{Handler}}",
+    "Runtime":"{{Runtime}}",
+    "Timeout": {{Timeout}},
+    "MemorySize": {{MemorySize}}
+}
