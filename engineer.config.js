@@ -12,15 +12,15 @@ module.exports = () => {
 		templates: [
 			{
 				src: '.satelite/engineer/files/lambda.config.json',
-				dest: 'src/lambda.config.json',
+				dest: 'lambda.config.json',
 			},
 			{
 				src: '.satelite/engineer/files/package.json',
-				dest: 'src/package.json',
+				dest: 'package.json',
 			},
 			{
 				src: '.satelite/engineer/files/template.yaml',
-				dest: 'src/template.yaml',
+				dest: 'template.yaml',
 			},
 		],
 	};
