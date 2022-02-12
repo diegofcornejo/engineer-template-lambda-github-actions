@@ -7,6 +7,6 @@ Resources:
   LambdaGithubActions:
     Type: AWS::Serverless::Function 
     Properties:
-      CodeUri: ./ # format is projectPath/
+      CodeUri: ./src # format is projectPath/
       Handler: {{Handler}} # format is filename.functionName
       Runtime: {{Runtime}}
